@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mobile.css">
+
+</head>
+
+<body>
+    <div class="navBar">
+        <div class="logo">
+            <h3><a href="index.html">Bio Natur Dayneo</a> </h3>
+        </div>
+
+        <div class="menu">
+            <a href="">Acasa</a>
+            <a href="">Despre noi</a>
+            <a href="">Contact</a>
+        </div>
+
+        <div class="cart">
+            <a href=""><img src="img/Person.png" alt=""></a>
+            <a href=""><img src="img/Cart-shop.png" alt="" id="shop-cart"></a>
+            <p id="add-to-cart-counter">1</p>
+            <div id="cart-conteiner" style="display: none;">
+                <h3 id="append-chd">Your shoping cart is:</h3>
+                <div id="conteiner-product" style="width: 80%;">
+                    <div class="porduct-in-cart">
+                        <img src="img/Suc_de_mere.png" alt="">
+                        <p>Suc de piersica</p>
+                        <p>30$</p>
+                    </div>
+                </div>
+
+
+                <div class="detalis">
+                    <p>Total</p>
+                    <p>100$</p>
+                </div>
+
+                <a href="">View cart</a>
+
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="serch-bar">
+        <form action="">
+            <img src="img/search-heart.png" alt="" width="15px">
+            <input type="search">
+            <select name="Categoris" id="Categoris">
+                <option value="selected">categorie</option>
+                <option value="All">Toate categoriile</option>
+                <option value="Sucuri">Sucuri</option>
+                <option value="Siropuri">Siropuri</option>
+                <option value="Dulceturi">Dulceturi</option>
+                <option value="Conserve">Conserve</option>
+            </select>
+        </form>
+
+    </div>
+    <div class="product-panel">
+        <div class="product-img">
+            <img src="img/Suc_de_mere.png" alt="" width="200px">
+
+
+        </div>
+        <div class="details-panel">
+            <h2>Suc de piersica</h2>
+            <h4 style="color: green;">10 Lei</h4>
+
+            <p style="font-size: small; width: 200px; color: #ccc;">Ajuta la inbunatatirea vitaminelor D si B in
+                organism </p>
+
+            <h4>in stoc</h4>
+            <form action="">
+                <span id="minus-btn-buy">-</span>
+                <input type="number" placeholder="1" >
+                <span id="plus-btn-buy">+</span>
+                <input type="submit" value="Cumpara">
+                <a href=""><img src="img/star.png" alt="" width="30px"></a>
+            </form>
+        </div>
+
+    </div>
+    <div class="comments-section">
+        <div class="read-comments">
+            <div class="comment-panel">
+                <img src="img/profile-pic.png" alt="" >
+                <div class="data">
+                    <p>Name</p>
+                    <img src="img/star.png" class="rate-star" alt="" width="20px">
+                    <img src="img/star.png" class="rate-star" alt="" width="20px">
+                    <img src="img/star.png" class="rate-star" alt="" width="20px">
+                    <img src="img/star.png" class="rate-star" alt="" width="20px">
+                    <img src="img/star.png" class="rate-star" alt="" width="20px">
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur sapiente, iure sunt beatae
+                        repellat exercitationem 
+                    </p>
+                </div>
+            </div>
+            <div class="comment-panel">
+                <img src="img/profile-pic.png" alt="" >
+                <div class="data">
+                    <p>Name</p>
+                    <img src="img/star.png" class="rate-star" alt="" width="20px">
+                    <img src="img/star.png" class="rate-star" alt="" width="20px">
+                    <img src="img/star.png" class="rate-star" alt="" width="20px">
+                    <img src="img/star.png" class="rate-star" alt="" width="20px">
+                    <img src="img/star.png" class="rate-star" alt="" width="20px">
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur sapiente, iure sunt beatae
+                        repellat exercitationem 
+                    </p>
+                </div>
+            </div>
+            <div class="comment-panel">
+                <img src="img/profile-pic.png" alt="" >
+                <div class="data">
+                    <p>Name</p>
+                    <img src="img/star.png" class="rate-star" alt="" width="20px">
+                    <img src="img/star.png" class="rate-star" alt="" width="20px">
+                    <img src="img/star.png" class="rate-star" alt="" width="20px">
+                    <img src="img/star.png" class="rate-star" alt="" width="20px">
+                    <img src="img/star.png" class="rate-star" alt="" width="20px">
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur sapiente, iure sunt beatae
+                        repellat exercitationem 
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="write-coments">
+            <form action="" class="comment-form">
+                <h3>Recenzia ta conteaza</h3>
+                <label for="recenzie">Recenzia ta*</label>
+                <textarea name="" id="" rows="5"></textarea>
+                <label for="name">Name</label>
+                <input type="text" name="" id="">
+                <label for="Email">Email</label>
+                <input type="email">
+            </form>
+        </div>
+    </div>
+    <div class="product-breef-section">
+        <div class="card-product">
+
+            <div class="card-top">
+                <img src="/img/Suc_de_mere.png" alt="" width="100px">
+                <p class="title-productt">Suc de piersica</p>
+            </div>
+            <div class="cart-bottom">
+                <img src="img/star.png" alt="">
+                <input type="button" value="Cumpara" class="add-to-cart-btn">
+                <img src="img/search-heart.png" alt="">
+
+            </div>
+
+        </div>
+
+        <div class="card-product">
+
+            <div class="card-top">
+                <img src="/img/Suc_de_mere.png" alt="" width="100px">
+                <p class="title-productt">Suc de Aronia</p>
+            </div>
+            <div class="cart-bottom">
+                <img src="img/star.png" alt="">
+                <input type="button" value="Cumpara" class="add-to-cart-btn">
+                <img src="img/search-heart.png" alt="">
+
+            </div>
+
+        </div>
+
+        <div class="card-product">
+
+            <div class="card-top">
+                <img src="/img/Suc_de_mere.png" alt="" width="100px">
+                <p class="title-productt">Suc de Pere</p>
+            </div>
+            <div class="cart-bottom">
+                <img src="img/star.png" alt="">
+                <input type="button" value="Cumpara" class="add-to-cart-btn">
+                <img src="img/search-heart.png" alt="">
+
+            </div>
+
+        </div>
+        <div class="card-product">
+
+            <div class="card-top">
+                <img src="/img/Suc_de_mere.png" alt="" width="100px">
+                <p class="title-productt">Suc de Gutui</p>
+            </div>
+            <div class="cart-bottom">
+                <img src="img/star.png" alt="">
+                <input type="button" value="Cumpara" class="add-to-cart-btn">
+                <img src="img/search-heart.png" alt="">
+
+            </div>
+
+        </div>
+        <div class="card-product">
+
+            <div class="card-top">
+                <img src="/img/Suc_de_mere.png" alt="" width="100px">
+                <p class="title-productt">Suc de Gutui</p>
+            </div>
+            <div class="cart-bottom">
+                <img src="img/star.png" alt="">
+                <input type="button" value="Cumpara" class="add-to-cart-btn">
+                <img src="img/search-heart.png" alt="">
+
+            </div>
+
+        </div>
+        <div class="card-product">
+
+            <div class="card-top">
+                <img src="/img/Suc_de_mere.png" alt="" width="100px">
+                <p class="title-productt">Suc de Gutui</p>
+            </div>
+            <div class="cart-bottom">
+                <img src="img/star.png" alt="">
+                <input type="button" value="Cumpara" class="add-to-cart-btn">
+                <img src="img/search-heart.png" alt="">
+
+            </div>
+
+        </div>
+
+
+
+        <div class="view-more-btn">
+            <a href="product_page.html">Vezi Mai multe</a>
+        </div>
+
+    </div>
+    <div class="footer">
+        <div class="logo">
+            <h3><a href="index.html">Bio Natur Dayneo</a> </h3>
+        </div>
+        <div class="learn-more">
+            <h3>Citeste mai mult despre noi</h3>
+            <p><a href="">Despre produsele noastre</a></p>
+            <p><a href="">Despre fructele noastre</a></p>
+            <p><a href="">Despre Ambalaje</a></p>
+            <p><a href="">Despre angajati</a></p>
+
+        </div>
+        <div class="tlc">
+            <h3>Tlc</h3>
+            <p><a href="">Privacy Policy</a></p>
+            <p><a href="">TLC</a></p>
+            <p> <a href="">ANAF</a></p>
+        </div>
+        <div class="contact-us">
+            <h3>Contacteaza-ne</h3>
+            <p> <a href="">Numar de fix 123-457-272</a></p>
+            <p><a href="">Numar de mobil 123-457-272</a></p>
+            <p><a href="">Email:bioNaturDayneo@gmail.com </a></p>
+        </div>
+        <div class="social">
+            <h3>Socials</h3>
+            <a href=""><img src="img/instagram.svg" alt=""></a>
+            <a href=""><img src="img/facebook.svg" alt=""></a>
+            <a href=""><img src="img/whatsapp.svg" alt=""></a>
+            <a href=""><img src="img/twitter.svg" alt=""></a>
+            <a href=""><img src="img/tiktok.svg" alt=""></a>
+
+
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>

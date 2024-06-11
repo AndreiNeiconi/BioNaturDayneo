@@ -1,0 +1,149 @@
+
+.carusel {
+    display: flex;
+    background-image: url("../img/carusel-postercard-desktop.png");
+    background-size: cover;
+    background-position-y:-60px;
+    align-items: center;
+
+    
+
+}
+
+.carusel img {
+    transform: rotate(-25deg);
+    order: 3;
+
+}
+
+.carusel .content h1 {
+    color: #ffffff;
+    width: 60vw;
+}
+
+.carusel .callToAction {
+    padding: 10px 30px;
+    background-color: chartreuse;
+    border-radius: 30px;
+
+}
+
+.callToAction>a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.product-curozity {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+
+}
+
+.product-curozity p {
+    width: 40vw;
+    text-align: left;
+}
+
+
+
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #198754;
+}
+.contact-detalis{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+}
+.maps iframe {
+    height:500px;
+    width: 50vw;
+}
+.out-line-maps{
+    padding: 30px;
+    background-color:#F8F9FA ;
+}
+
+
+
+#add-to-cart-counter {
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 3px 8px;
+    position: absolute;
+    top: -30px;
+    right: -15px;
+}
+
+#cart-conteiner {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    background-color: #fff;
+    top: 50px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    box-shadow: #0000004b 2px 2px 3px 2px;
+    overflow-y: scroll;
+}
+
+#cart-conteiner .detalis {
+    display: flex;
+    gap: 80px;
+
+}
+
+#cart-conteiner a {
+    padding: 10px 30px;
+    background-color: chartreuse;
+    border-radius: 50px;
+}
+
+.porduct-in-cart {
+    margin: 12px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    border: 2px solid #0000004e;
+}
+.about-us{
+
+    padding:50px 0;
+    background-color:#F8F9FA ;
+}
+
+.conteiner-product {
+    width: 80%;
+}
+.card-conteiner{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.card-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 300px;
+    background-color: #e5e2e2;
+    border-radius: 40px;
+    padding: 30px;
+
+}
+

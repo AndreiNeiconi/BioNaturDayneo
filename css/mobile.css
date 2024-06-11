@@ -1,0 +1,80 @@
+@media screen and (max-width:732px) {
+    .navBar{
+        width: 100%;
+    }
+
+    .menu{
+        display: none !important;
+
+    }
+    .product-curozity{
+        flex-direction: column;
+    }
+    
+    #menu-mobile{
+        display: block;
+    }
+    .carusel{
+        background-image: url("../img/carusel-postercard-mobile.png");
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    .about-us{
+        flex-direction: column;
+
+    }
+    .about img{
+        display: none;
+    }
+    .product-curozity p {
+        width: 80vw;
+    }
+    /*for product page*/
+
+    .product-panel{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .product-panel .details-panel{
+        font-size: 1.5rem;
+        width: 100vw;
+        margin-bottom: 70px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .contact{
+        flex-direction: column;
+    }
+    .contact .maps iframe{
+        width: 100%;
+    }
+    .contact .contact-detalis{
+        padding: 30px;
+    }
+    
+    .comments-section{
+        flex-direction: column;
+        align-items: center;
+    }
+    .comments-section .read-comments{
+        width: 100vw;
+    }
+    .comment-form{
+        width: 70vw;
+        justify-content: center;
+    }
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        align-items: center;
+       
+    }
+}
+
